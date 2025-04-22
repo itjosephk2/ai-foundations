@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+venv/
+__pycache__/
+data/ # if your data folder will store large files
