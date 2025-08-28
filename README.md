@@ -43,7 +43,8 @@ This repo contains my Phase 1 work: math refresh and NumPy mini-projects.
 - 📊 **data/** → Datasets (placeholder, ignored by git)  
 - 📓 **notebooks/** → Jupyter notebooks  
   - 00_setup_check.ipynb  
-  - 01_linear_algebra.ipynb  
+  - 01_vectors.ipynb
+  - 02_matrices.ipynb
 - 🧩 **src/** → Python source code  
 - 🧪 **tests/** → Unit tests (placeholder)  
 - 📝 **.gitignore** → Git ignore rules  
