@@ -1,5 +1,24 @@
-venv/
+# Byte-compiled / cache
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
 venv/
-__pycache__/
-data/ # if your data folder will store large files
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & outputs (keep raw data outside git by default)
+data/
+outputs/
+models/
