@@ -40,10 +40,13 @@ This repo contains my Phase 1 work: math refresh and NumPy mini-projects.
 ## 📂 Project Structure
 
 - 🐍 **.venv/** → Virtual environment (ignored by git)  
+- 📊 **data/** → Datasets (placeholder, ignored by git)  
 - 📓 **notebooks/** → Jupyter notebooks  
   - 00_setup_check.ipynb  
   - 01_linear_algebra.ipynb  
 - 🧩 **src/** → Python source code  
+- 🧪 **tests/** → Unit tests (placeholder)  
 - 📝 **.gitignore** → Git ignore rules  
 - 📘 **README.md** → Project overview  
 - 📦 **requirements.txt** → Dependencies  
+
