@@ -33,7 +33,7 @@ This repo contains my Phase 1 work: math refresh and NumPy mini-projects.
 5. ✅ **Verify setup**  
    - Launch Jupyter Notebook:  
      ```bash
-     jupyter notebook  
+     jupyter lab  
      ```  
    - Run the `notebooks/00_setup_check.ipynb` to confirm imports work.
 
