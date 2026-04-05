@@ -1,6 +1,4 @@
 from nnfs.datasets import spiral_data
-
-import matplotlib.pyplot as plt
 import numpy as np
 import nnfs
 
@@ -15,20 +13,20 @@ nnfs.init()
 # print(weights)
 # print(biases)
 
-#Dense layer
+# Dense layer
 class Layer_Dense:
-
     # Layer Initialisation
-    def __init__(self, n_inputs,n_neurons):
+    def __init__(self, n_inputs, n_neurons):
         # Initialise weights and biases
         self.weights = 0.01 * np.random.randn(n_inputs, n_neurons)
         self.biases = np.zeros((1, n_neurons))
-    
+
     # Forward pass
     def forward(self, inputs):
         # Calculate output values from inputs, weights and biases
         self.output = np.dot(inputs, self.weights) + self.biases
-    
+
+
 # Create dataset
 x, y = spiral_data(samples=100, classes=3)
 

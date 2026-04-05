@@ -1,7 +1,6 @@
 from nnfs.datasets import spiral_data
 
 import matplotlib.pyplot as plt
-import numpy as np
 import nnfs
 
 nnfs.init()
