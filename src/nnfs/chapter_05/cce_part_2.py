@@ -32,3 +32,11 @@ average_loss = np.mean(neg_log)
 print(average_loss)
 
 print(np.e**(-np.inf))
+
+# Error Expected
+# print(np.mean([1, 2, 3,-np.log(0)]))
+# Adding insignifacnce to correct and showing edge cases that are now problems
+print(-np.log(1e-7))
+print(-np.log(1+1e-7))
+print(-np.log(1-1e-7))
+y_pred_clipped = np.clip(y_pred, 1e-7, 1 - 1e-7)
