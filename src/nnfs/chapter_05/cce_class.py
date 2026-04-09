@@ -67,7 +67,7 @@ class Loss_Categorigorical_Crossentropy(Loss):
         # Number pf samples in a batch
         samples = len(y_pred)
 
-        # Clip data to prevent ivision by 0
+        # Clip data to prevent division by 0
         # Clip both sides tonot drag mean towards any value
         y_pred_clipped = np.clip(y_pred, 1e-7, 1 - 1e-7)
 
@@ -133,3 +133,13 @@ loss = loss_function.calculate(activation_sm.output, y)
 
 # Print loss value
 print('loss:', loss)
+
+# Calculate accuracy from output of activation softmax and targets
+# calculate values along first axis
+predictions = np.argmax(activation_sm.output, axis=1)
+if len(y.shape) == 2:
+    y = np.argmax(y, axis=1)
+accuracy = np.mean(predictions == y)
+
+# Print accuracy
+print('acc:', accuracy)
