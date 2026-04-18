@@ -1,7 +1,7 @@
 import numpy as np
-import matplotlib.pyplot as plyt
-import nnfs
-from nnfs.datasets import vertical_data
+# import matplotlib.pyplot as plyt
+# import nnfs
+# from nnfs.datasets import vertical_data
 
 
 class DL:
